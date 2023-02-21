@@ -1,13 +1,13 @@
 Install Anaconda for Jupyter notebooks - https://www.anaconda.com/products/distribution
 
-##Aspects of Data Science
+## Aspects of Data Science
 - To extract knowledge from data - understand data and find relationships between them
 - Uses Statistics and Probability
 - Produce actionable insights
 - Should be able to operate on both structured and unstructured data
 
 
-##Related Fields
+## Related Fields
 Databases - how to store data
 Big Data - how to store large data in a distributed manner and process it efficiently
 Machine Learning - developing models from data to predict the desired outcome
@@ -15,14 +15,14 @@ Artificial Intelligence - building high-complexity models that mimic human thoug
 Visualization - creating useful visualizations to make sense of the data and draw conclusions
 
 
-##Steps of Data Journey
+## Steps of Data Journey
 - Collecting Data
 - Storing Data 
 - Processing Data
 - Visualization Data
 - Training a Predictive Model - Machine Learning
 
-##Types of Data & Where to get it
+## Types of Data & Where to get it
 Structured
 - IoT
 - Surveys
@@ -38,7 +38,7 @@ Semi-structured
 - Group dynamics data by building a graph of people taking pics together
 
 _________________________________________________________________________
-##Assignment
+## Assignment
 
 Problems in different domains & how we can improve using Data Science
 
