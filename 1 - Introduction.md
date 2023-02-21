@@ -54,8 +54,8 @@ Problems in different domains & how we can improve using Data Science
 - How to store data:
 - Which insights/decisions we can make: does travel mode/distance affect productivity? (coz tired?), remote or work from office - does it affect productivity?
 
-3. Problem Domain: Gaming
-- Problem: 
-- Which data to collect: 
+3. Problem Domain: Anime
+- Problem: Predict the success of an anime
+- Which data to collect: anime date, does it have manga?, manga date, anime studio, anime list (ratings, genre, ropped, complete, plan to watch, currently watching, on hold, how many people rated) manga rating, age of reviewers?
 - How to store data:
-- Which insights/decisions we can make: 
+- Which insights/decisions we can make:  if the new anime will be pass/fail, what type of stuff is liked by people, age group, what genres preferred by age groups
