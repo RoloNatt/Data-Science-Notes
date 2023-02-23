@@ -62,13 +62,13 @@ Mode -> good "typical" value -> value that appears the most frequently
 ###  Mean, Median, Mode, and Variance in Data Science
 
 - Mean: 
-- The mean is used to measure the central tendency of a dataset, and is often used when the data is normally distributed and has no significant outliers. It is the most commonly used measure of central tendency in data science, and is often used in hypothesis testing and predictive modeling.
+The mean is used to measure the central tendency of a dataset, and is often used when the data is normally distributed and has no significant outliers. It is the most commonly used measure of central tendency in data science, and is often used in hypothesis testing and predictive modeling.
 
 - Median:
-- The median is also used to measure the central tendency of a dataset, but is more robust to outliers than the mean. It is often used when the data is skewed or has significant outliers, as it provides a better estimate of the "typical" value. The median is often used in descriptive statistics and exploratory data analysis.
+The median is also used to measure the central tendency of a dataset, but is more robust to outliers than the mean. It is often used when the data is skewed or has significant outliers, as it provides a better estimate of the "typical" value. The median is often used in descriptive statistics and exploratory data analysis.
 
 - Mode: 
-- The mode is used to measure the most common value or values in a dataset. It is often used when the data is categorical or discrete, and provides insight into the distribution of the data. The mode is often used in market research and survey analysis.
+The mode is used to measure the most common value or values in a dataset. It is often used when the data is categorical or discrete, and provides insight into the distribution of the data. The mode is often used in market research and survey analysis.
 
 - Variance: 
-- The variance is used to measure the spread of a dataset, and is often used in combination with the mean. It provides insight into how much the data varies from the mean, and is often used in hypothesis testing and predictive modeling. The variance is also used to calculate other statistical measures, such as the standard deviation and coefficient of variation.
+The variance is used to measure the spread of a dataset, and is often used in combination with the mean. It provides insight into how much the data varies from the mean, and is often used in hypothesis testing and predictive modeling. The variance is also used to calculate other statistical measures, such as the standard deviation and coefficient of variation.
