@@ -21,6 +21,8 @@ probability density function p(x)
 
 #### Mean
 
+Mean is the average value of all the numbers
+
 mean (arithmetic avg) = (x1, x2, ... xn)/n
 
 when sample increases, i.e., n→∞,
@@ -28,7 +30,8 @@ when sample increases, i.e., n→∞,
 mean (expectation), ![image](https://user-images.githubusercontent.com/15999442/220879352-a98b3b36-277f-403d-a996-25bbd2efaa6f.png)             (values {x1, x2, ..., xN} and corresponding probabilities p1, p2, ..., pN)
 
 #### Variance 
-how far the values are spread
+
+Standard Deviation is a measure of how spread out the numbers are from the mean
 
 variance, ![image](https://user-images.githubusercontent.com/15999442/220879412-29ac57f6-b2f2-4f17-b3b0-296a4fe62f1b.png)         (μ = mean of the sequence)
 
@@ -72,3 +75,42 @@ The mode is used to measure the most common value or values in a dataset. It is 
 
 - Variance: 
 The variance is used to measure the spread of a dataset, and is often used in combination with the mean. It provides insight into how much the data varies from the mean, and is often used in hypothesis testing and predictive modeling. The variance is also used to calculate other statistical measures, such as the standard deviation and coefficient of variation.
+
+## Normal Distribution
+
+Normal distribution is a way to describe how numbers tend to be spread out. It's like looking at the heights of all the students in your class - some are really tall, some are really short, and most are somewhere in the middle. If you made a graph of all the heights, it would probably look like a hill with most of the students in the middle and fewer at the extremes.
+
+In machine learning and data science, normal distribution is a way to describe the pattern of numbers in a dataset. It's also called the "bell curve" because when you graph the numbers, it looks like a bell.
+
+The normal distribution tells us how many of the numbers in the dataset are close to the average, and how many are far away. For example, if you looked at the grades of all the students in your class, you might see that most students got grades around a C, and fewer students got grades that were very high or very low.
+
+Normal distribution is really important in data science because it helps us understand how likely it is that a particular number or event will happen. It also helps us make predictions based on past data. So, if we know that a certain dataset follows a normal distribution, we can use that information to make better decisions and predictions in the future.
+
+### How to calculate Normal Distribution
+
+To calculate normal distribution, you need to know two things: the mean and the standard deviation of the dataset.
+
+Once you have the mean and standard deviation, you can use a formula called the normal distribution equation to calculate the probability of a particular value occurring in the dataset.
+normal distribution equation:
+
+P(x) = (1 / (σ * sqrt(2π))) * e^(-(x-μ)^2 / (2σ^2))
+
+Here, P(x) is the probability of a particular value x occurring in the dataset, μ is the mean, σ is the standard deviation, e is the mathematical constant approximately equal to 2.71828, and π is the mathematical constant approximately equal to 3.14159.
+
+To use the equation, you need to substitute the values of μ, σ, and x into the equation and solve for P(x). The result will give you the probability of x occurring in the dataset.
+
+There are also many software tools, such as Excel or Python, that can perform normal distribution calculations for you. These tools make it easier to calculate probabilities for large datasets or complex situations.
+
+If you want to train a machine learning model on a dataset, you can use the `np.random.normal()` function to generate a random dataset that follows a normal distribution with a specific mean and standard deviation. This can help you test and optimize your model before applying it to real-world data.
+
+### Confidence Intervals
+
+Confidence intervals are a way to measure how certain we are about our estimates.
+
+Imagine you are trying to guess the weight of a big pumpkin, but you can't pick it up. Instead, you can only estimate its weight by looking at other pumpkins of similar size. However, you know that your estimate might not be exactly right because each pumpkin is a little different. So, to help you get a better idea of the pumpkin's weight, you can use confidence intervals.
+
+A confidence interval is like a range of possible weights that the pumpkin could be, based on the pumpkins you have seen before. For example, if you estimate that the pumpkin weighs 50 pounds and you have a 95% confidence interval, that means you are 95% sure that the pumpkin's true weight is somewhere between 45 and 55 pounds.
+
+In data science, we use confidence intervals to estimate things like the average height of people, the mean income of a city, or the accuracy of a machine learning model. By using confidence intervals, we can get a better idea of how accurate our estimates are and how much uncertainty there is in our data.
+
+Overall, confidence intervals help us to make better predictions and decisions by giving us a sense of how certain we can be about our estimates.
