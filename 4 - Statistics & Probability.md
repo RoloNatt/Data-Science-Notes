@@ -114,3 +114,14 @@ A confidence interval is like a range of possible weights that the pumpkin could
 In data science, we use confidence intervals to estimate things like the average height of people, the mean income of a city, or the accuracy of a machine learning model. By using confidence intervals, we can get a better idea of how accurate our estimates are and how much uncertainty there is in our data.
 
 Overall, confidence intervals help us to make better predictions and decisions by giving us a sense of how certain we can be about our estimates.
+
+#### Higher the confidence probability, Wider the confidence interval
+
+When we construct a confidence interval, we are trying to estimate the true value of a population parameter (such as the population mean or population proportion) based on a sample of data. The confidence interval represents a range of values within which we believe the true population parameter lies with a certain level of confidence.
+
+The level of confidence is typically expressed as a percentage, such as 95% or 99%. This percentage represents the proportion of all possible samples that would produce an interval containing the true population parameter. For example, a 95% confidence interval means that if we were to repeat the same study many times and calculate a confidence interval each time, we would expect that 95% of those intervals would contain the true population parameter.
+
+The width of the confidence interval is affected by several factors, including the sample size, the standard deviation of the sample, and the level of confidence. A higher level of confidence requires a wider interval because we want to be more certain that the true population parameter falls within the interval. Similarly, a larger standard deviation or a smaller sample size will result in a wider interval because there is more uncertainty in our estimate of the population parameter.
+
+So, in summary, a higher level of confidence requires a wider interval because we want to be more confident that the true population parameter falls within the interval, and this wider interval allows for more uncertainty in our estimate.
+
