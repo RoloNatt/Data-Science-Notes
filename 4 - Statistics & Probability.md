@@ -127,3 +127,18 @@ So, in summary, a higher level of confidence requires a wider interval because w
 
 Typically we calculate the confidence interval for a sample data, not for the entire population. The reason for this is that it is not possible to calculate the confidence interval for a population since we usually do not have access to the entire population data.
 Instead, we take a random sample from the population and use that to estimate the parameters of the population, such as the population mean. We can then use the sample mean and sample standard deviation to calculate the confidence interval for the population mean. The confidence interval provides a range of values that is likely to contain the true population mean with a certain level of confidence.
+
+## Hypothesis Testing
+
+Hypothesis testing is a way to find out if something is true or not.
+
+For example, let's say you have a friend who claims they can predict the weather by looking at the clouds. You might be skeptical and want to test their claim.
+So, you come up with a hypothesis, which is basically a guess or prediction about what you think will happen. Your hypothesis might be something like, "My friend can't predict the weather by looking at the clouds."
+Next, you collect some data by observing your friend's cloud predictions and comparing them to the actual weather.
+Then, you use statistics to analyze the data and see if it supports or contradicts your hypothesis.
+If the data supports your hypothesis, you might conclude that your friend's claim is not true. But if the data contradicts your hypothesis, you might have to accept that your friend's claim might be true after all.
+
+Overall, hypothesis testing is a way to help us make decisions and draw conclusions based on evidence and data.
+
+
+
