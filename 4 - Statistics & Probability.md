@@ -125,3 +125,5 @@ The width of the confidence interval is affected by several factors, including t
 
 So, in summary, a higher level of confidence requires a wider interval because we want to be more confident that the true population parameter falls within the interval, and this wider interval allows for more uncertainty in our estimate.
 
+Typically we calculate the confidence interval for a sample data, not for the entire population. The reason for this is that it is not possible to calculate the confidence interval for a population since we usually do not have access to the entire population data.
+Instead, we take a random sample from the population and use that to estimate the parameters of the population, such as the population mean. We can then use the sample mean and sample standard deviation to calculate the confidence interval for the population mean. The confidence interval provides a range of values that is likely to contain the true population mean with a certain level of confidence.
