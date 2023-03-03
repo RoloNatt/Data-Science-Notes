@@ -140,5 +140,14 @@ If the data supports your hypothesis, you might conclude that your friend's clai
 
 Overall, hypothesis testing is a way to help us make decisions and draw conclusions based on evidence and data.
 
+### Student t-test
+If we know that our distributions are normal, we can apply Student t-test.
+
+#### t-value 
+> indicates the difference between means, taking into account the variance
+
+
+python library used: **ttest_ind**
+- equal_var - equal or unequal variances
 
 
