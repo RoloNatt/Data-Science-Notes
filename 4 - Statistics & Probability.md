@@ -103,6 +103,18 @@ There are also many software tools, such as Excel or Python, that can perform no
 
 If you want to train a machine learning model on a dataset, you can use the `np.random.normal()` function to generate a random dataset that follows a normal distribution with a specific mean and standard deviation. This can help you test and optimize your model before applying it to real-world data.
 
+### Different methods to determine if the distribution is Normal or not
+
+- **Histogram and Density Plots:** This method is commonly used as a visual aid to get a sense of the shape of the data distribution. It is useful for small and large datasets, but it can be subjective and may not always accurately indicate whether the distribution is normal or not.
+
+- **Q-Q Plot:** This method is useful for comparing the distribution of the data to the theoretical normal distribution. It is commonly used for small and large datasets, but it can be difficult to interpret for non-experts.
+
+- **Shapiro-Wilk Test:** This is a commonly used statistical test for small to medium-sized datasets (up to a few thousand observations) and is considered to be more powerful than the Anderson-Darling test. It provides a p-value that indicates the probability of the data coming from a normal distribution.
+
+- **Anderson-Darling Test:** This is a commonly used statistical test for small to medium-sized datasets (up to a few thousand observations) and is considered to be more sensitive than the Shapiro-Wilk test. It provides a p-value that indicates the probability of the data coming from a normal distribution.
+
+It is a good practice to use multiple methods to check for normality, and to consider the results in combination with other factors, such as the skewness and kurtosis of the data distribution, the sample size, and the specific requirements of the analysis.
+
 ### Confidence Intervals
 
 Confidence intervals are a way to measure how certain we are about our estimates.
@@ -142,9 +154,11 @@ Overall, hypothesis testing is a way to help us make decisions and draw conclusi
 
 ### Student t-test
 If we know that our distributions are normal, we can apply Student t-test.
+> t-test is a statistical test used to compare two groups of data and determine whether the difference between their means (averages) is statistically significant or just due to chance.
 
 #### t-value 
-> indicates the difference between means, taking into account the variance
+
+> indicates the difference between means between , taking into account the variance
 
 
 python library used: **ttest_ind**
