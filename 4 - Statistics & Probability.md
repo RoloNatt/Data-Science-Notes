@@ -158,10 +158,50 @@ If we know that our distributions are normal, we can apply Student t-test.
 
 #### t-value 
 
-> indicates the difference between means between , taking into account the variance
-
+> The t-value is a measure of the difference between the means of two groups of data, scaled by the variation within each group. It tells us how large the difference between the two groups is relative to the variation within each group.
 
 python library used: **ttest_ind**
 - equal_var - equal or unequal variances
 
+#### p-value
+
+The p-value, or probability value, is a measure of the probability that the observed difference between the two groups of data is due to chance alone. It is used to determine if the difference between the two groups is statistically significant, which means that it is unlikely to be due to chance.
+
+### Law of Large Numbers and Central Limit Theorem
+
+#### Law of Large Numbers
+
+The Law of Large Numbers is a fundamental concept in probability theory that states that as the number of independent trials of an experiment increases, the average value of the outcomes will converge towards the expected value of the experiment. In simpler terms, this means that if we repeat an experiment many times, the average of the results will be close to the expected value of the experiment.
+
+Eg: if we toss a fair coin many times, the Law of Large Numbers tells us that the proportion of heads will converge towards 0.5 as the number of coin tosses increases. This concept is important in data science and machine learning because it allows us to make accurate predictions about future outcomes based on a large sample of data.
+
+#### Central Limit Theorem
+
+The Central Limit Theorem is another important concept in statistics that states that as the sample size of a random variable increases, the distribution of sample means approaches a normal distribution, regardless of the underlying distribution of the variable itself. In simpler terms, this means that if we take many random samples of the same size from a population, the distribution of the sample means will be approximately normal.
+
+Eg: if we take many random samples of size 30 from a population with an unknown distribution, the Central Limit Theorem tells us that the distribution of the sample means will be approximately normal, regardless of the underlying distribution of the population. This concept is important in statistical inference because it allows us to use the normal distribution to make inferences about population parameters, even when the population distribution is unknown.
+
+
+### Covariance and Correlation
+
+> ONLY WORKS ON NUMERICAL VALUES
+
+We say that two sequences correlate when they exhibit the similar behavior at the same time, i.e. they either rise/fall simultaneously, or one sequence rises when another one falls and vice versa. In other words, there seems to be some relation between two sequences.
+
+Correlation does not necessarily indicate causal relationship between two sequences; sometimes both variables can depend on some external cause, or it can be purely by chance the two sequences correlate. However, strong mathematical correlation is a good indication that two variables are somehow connected.
+
+Mathematically, the main concept that shows the relation between two random variables is covariance, that is computed like this: **Cov(X,Y) = E[(X-E(X))(Y-E(Y))]**. 
+We compute the deviation of both variables from their mean values, and then product of those deviations. 
+- If both variables deviate together, the product would always be a positive value, that would add up to positive covariance. 
+- If both variables deviate out-of-sync (i.e. one falls below average when another one rises above average), we will always get negative numbers, that will add up to negative covariance. 
+- If the deviations are not dependent, they will add up to roughly zero.
+
+The absolute value of covariance does not tell us much on how large the correlation is, because it depends on the magnitude of actual values. To normalize it, we can divide covariance by standard deviation of both variables, to get correlation. 
+
+Correlation is always in the range of [-1,1]
+- 1 : indicates strong positive correlation between values
+- -1 : strong negative correlation
+- 0 : no correlation at all (variables are independent)
+
+> print(np.corrcoef(column1,column2))
 
